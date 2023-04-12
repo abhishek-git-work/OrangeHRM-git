@@ -17,8 +17,8 @@ public class ExtentSparkReport {
 		
 //design report (optional)
 		sparkreport.config().setTheme(Theme.DARK);
-		sparkreport.config().setReportName("TutorialsNinja Test Project Report");
-		sparkreport.config().setDocumentTitle("Ninja Report");
+		sparkreport.config().setReportName("OrangeHRM Test Project Report");
+		sparkreport.config().setDocumentTitle("OrangeHRM Report");
 		sparkreport.config().setTimeStampFormat("dd/MM/yyyy hh:mm:ss");
 				
 		return extentreport;		

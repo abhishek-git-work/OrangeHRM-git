@@ -89,7 +89,6 @@ public class HomeTest extends BaseClass{
 		String expectedText6 = "Employee Distribution by Sub Unit";
 		Assert.assertEquals(actualText6, expectedText6);
 		
-		Assert.fail();
 	}
 	
 	@Test(priority=7,dependsOnMethods= {"EmployeeDistributionTextVerification"})
